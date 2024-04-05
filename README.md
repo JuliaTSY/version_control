@@ -7,9 +7,13 @@
 ```sh
 git clone git@github.com:*YOURE_GITHUB*/version_control.git
 ```
-3. Создаем новую ветку и вносим необходимые изменения в файл
+
+3. Создаем новую ветку 
 ```sh
 git checkout -b updatereadme
+
+__И вносим необходимые изменения в файл__
+
 vim README.md
 git add README.md
 git commit -m "Добавили инструкцию как создать pull request"
